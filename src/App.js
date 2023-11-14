@@ -100,7 +100,7 @@ function App() {
         <div className='header-text'>
           Chrysus – God of Gold as money, 100% trustless, decentralized, open source, 
           fungible, divisible, transactable in exchange, commerce and banking. If you'd like to learn more about our project, please take a look at our
-          <a href="#" class="whitepaper-button">  Whitepaper</a> for in-depth information.
+          <a href="#" class="whitepaper-button">Whitepaper</a> for in-depth information.
         </div>
         <div className='roadmap'>
           <p>Our Roadmap</p>

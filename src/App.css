@@ -245,7 +245,7 @@ nav{
 
 .header-text{
   width: calc(310px + (1215 - 310) * ((100vw - 390px) / (1920 - 390)));
-  height: calc(70px + (81 - 70) * ((100vw - 390px) / (1920 - 390)));
+  height: calc(90px + (100 - 90) * ((100vw - 390px) / (1920 - 390)));
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -253,10 +253,11 @@ nav{
   text-align: center;
   color: #EDC452;
   padding-top: calc(11px + (26 - 11) * ((100vw - 390px) / (1920 - 390)));
+  line-height: 30px;
 }
 
 .roadmap {
-  padding-top: calc(43px + (29 - 43) * ((100vw - 390px) / (1920 - 390)));
+  padding-top: calc(60px + (40 - 60) * ((100vw - 390px) / (1920 - 390)));
 }
 
 .roadmap p{
@@ -328,6 +329,14 @@ nav{
 
 .socials img{
   width: calc(26px + (42 - 26) * ((100vw - 390px) / (1920 - 390)));;
+}
+
+.whitepaper-button{
+  color:#000000;
+  padding: 5px;
+  margin: 0px 3px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #EDC452 0%, #846424 100%);
 }
 
 @media (max-width:860px){
