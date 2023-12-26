@@ -245,7 +245,6 @@ nav{
 
 .header-text{
   width: calc(310px + (1215 - 310) * ((100vw - 390px) / (1920 - 390)));
-  height: calc(90px + (100 - 90) * ((100vw - 390px) / (1920 - 390)));
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -364,6 +363,7 @@ nav{
   }
 
   .socials{
+    position: inherit;
     display: flex;
     height: calc(52px + (77 - 52) * ((100vw - 390px) / (1920 - 390)));
     width: calc(232px + (304 - 232) * ((100vw - 390px) / (1920 - 390)));

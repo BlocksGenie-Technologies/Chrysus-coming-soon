@@ -9,6 +9,7 @@ import facebook from './assets/Facebook.png';
 import gitlab from './assets/Linkedin.png';
 import close from './assets/close.png';
 import animation from './assets/background.png';
+import whitepaper from './assets/Chrysus_Whitepaper.pdf';
 import './App.css';
 import CountdownTimer from "./helpers/countdownTimer";
 import { collection, addDoc } from "firebase/firestore";
@@ -100,7 +101,7 @@ function App() {
         <div className='header-text'>
           Chrysus – God of Gold as money, 100% trustless, decentralized, open source, 
           fungible, divisible, transactable in exchange, commerce and banking. If you'd like to learn more about our project, please take a look at our
-          <a href="#" class="whitepaper-button">Whitepaper</a> for in-depth information.
+          <a href={whitepaper} target='_blank' rel='noreferrer' class="whitepaper-button">Whitepaper</a> for in-depth information.
         </div>
         <div className='roadmap'>
           <p>Our Roadmap</p>
