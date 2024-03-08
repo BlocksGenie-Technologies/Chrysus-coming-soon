@@ -97,6 +97,15 @@ function App() {
           commerce. Join us on the path to a 100% Decentralized Future, where
           your financial freedom takes center stage.
         </div>
+        <div className="btn-mobile">
+            <a
+              href="https://www.slideshare.net/afzalsubhani1991/chrysus-whitepaper-v1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="whitepaperBtn">Read Our Whitepaper</button>
+            </a>
+          </div>
         <div className="roadmap">
           <p>Our Roadmap</p>
           <img src={roadmap} alt="roadmap" />
