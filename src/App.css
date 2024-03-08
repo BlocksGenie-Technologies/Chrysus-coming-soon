@@ -201,7 +201,7 @@ nav{
   align-items: center;
   width: 90%;
   justify-content: space-between;
-  padding-top: calc(50px + (63 - 50) * ((100vw - 390px) / (1920 - 390)));
+  padding-top: calc(30px + (44 - 30) * ((100vw - 390px) / (1920 - 390)));
 }
 
 .stroke-title{
@@ -338,9 +338,17 @@ font-size: calc(48px + (36 - 32) * ((100vw - 390px) / (1920 - 390)));
   background: linear-gradient(180deg, #EDC452 0%, #846424 100%);
 }
 
+.btn-mobile{
+  display: none;
+}
+
 @media (max-width:860px){
-  nav{
+  nav, .btn-mobile{
     display: block;
+  }
+
+  .btn{
+    display: none;
   }
 
   .logo{
