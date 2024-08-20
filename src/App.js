@@ -80,7 +80,7 @@ function App() {
           </div>
           <div className="btn">
             <a
-              href="https://www.slideshare.net/afzalsubhani1991/chrysus-whitepaper-v1"
+              href="https://drive.google.com/file/d/1gWRhwqj5h1mzY2MSLhsduPQXAfr4mop_/view"
               target="_blank"
               rel="noreferrer"
             >
