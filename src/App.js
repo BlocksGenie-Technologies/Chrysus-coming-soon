@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "./assets/chrysus.svg";
-import roadmap from "./assets/Roadmap.png";
+import roadmap from "./assets/Roadmap_updated.png";
 import mailModalBtn from "./assets/Mail.png";
 import twitter from "./assets/Twitter.png";
 import telegram from "./assets/Telegram.png";
