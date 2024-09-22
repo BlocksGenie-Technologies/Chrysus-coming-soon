@@ -99,7 +99,7 @@ function App() {
         </div>
         <div className="btn-mobile">
             <a
-              href="https://www.slideshare.net/afzalsubhani1991/chrysus-whitepaper-v1"
+              href="https://drive.google.com/file/d/1XFCy9RAAT70KbAy7yPbSqBpVIj0L3T5v/view"
               target="_blank"
               rel="noreferrer"
             >
